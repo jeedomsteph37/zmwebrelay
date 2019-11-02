@@ -1,16 +1,18 @@
 # ZmWebRelay 
 
+Le plugin sert à gérer la carte ZmWebRelay 5.2
+Il permet de piloter les 8 relais en mode impulsion ou normal et de récupérer les états numériques presque en temps réels.  
 
-Ce plugin permet de controler les cartes 8 relais "ZmWebRelay" que l'on trouve facilement sur Internet.
-Ces cartes possèdent également 8 entrées numériques.
-Il est possible de gérer plusieurs cartes en même temps.
-A chaque carte est associée un démon qui intéroge la carte toutes les 0.7 secondes (réglabe).
+Ce plugin utilise les 2 modes de communications avec la carte : socket et Web.
+Toutes les commandes sont envoyées directement en Web et tous les retours d'informations sont récupérés par le port 1234.
+Les informations sont traités toutes les 0.7s comme le fait le programme d'origine fournit avec.
 
-> Remarques : Sur certains équiments, le démon peut consommer de la ressource
+
+> Attention : Le contrôle toutes les 0.7s peux ralentir votre Jeedom.
+> Personnellement utilisé, pas de problème particulier de charge avec un RPI2.
 
 ## Configuration
-La configuration est très simple et nécéssite pas d'installation suplémentaire.
-Pour éviter des problèmes d'accès à la carte, les commandes sont envoyées par web et les informationssont récupérées par telnet.
+La configuration est très simple et ne nécéssite pas d'installation suplémentaire.
 
 ### Equipement
 
