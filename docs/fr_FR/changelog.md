@@ -10,3 +10,6 @@ Ajout de la commande RESTART
 
 # Novembre 2018
 Ajout du mode carte v2 (il s'agit des carte dont la page web s'actualise automatiquement)
+
+# Décembre 2019
+Modification du plugin pour être compatible avec Jeedom v4
