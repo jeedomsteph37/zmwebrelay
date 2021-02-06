@@ -14,3 +14,6 @@ Modification du plugin pour être compatible avec Jeedom v4
 
 # Juillet 2020
 Ajout du mode carte v3 (il s'agit de carte en v5.8)
+
+# Janvier 2021
+Ajout compatibilité Smart, Rpi4, etc...
