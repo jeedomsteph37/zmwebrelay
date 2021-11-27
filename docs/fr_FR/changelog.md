@@ -17,3 +17,6 @@ Ajout du mode carte v3 (il s'agit de carte en v5.8)
 
 # Janvier 2021
 Ajout compatibilité Smart, Rpi4, etc...
+
+# Novembre 2021
+Ajout du mode carte v4 (il s'agit de carte en v5.9)
