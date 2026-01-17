@@ -1,3 +1,7 @@
+# Janvier 2026
+Correction pour PHP8
+Ajout de l'état dans les commandes
+
 # Juillet 2018
 Création de la base du plugin 
 Ajout zone commentaire
